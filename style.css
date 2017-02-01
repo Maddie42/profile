@@ -1,0 +1,88 @@
+/* Here goes your CSS */
+body {
+  background-color: #1A1A1A;
+}
+
+h1 {
+  color: #F1E1D5;
+  font-family: 'Sansita', sans-serif;
+}
+
+h2 {
+  color: #F1E1D5;
+  font-family: 'Merriweather', serif;
+}
+
+h3 {
+  color: #FEE;
+  font-family: 'Merriweather', serif;
+}
+
+h4 {
+  color: #E1FFE1;
+  font-family: 'Merriweather', serif;
+  font-size: 32px;
+
+}
+
+h5 {
+  color: #E1FFE1;
+  font-family: 'Merriweather', serif;
+  font-size: 20px;
+
+}
+
+p {
+  color: #F1E1D5;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+a:hover {
+    color: #BEB01D;
+    text-decoration: none;
+}
+
+.bio {
+  width: 300px;
+  margin: 0 auto;
+}
+
+.description > p {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.social {
+  float: right;
+}
+
+.movies {
+  margin: 200px;
+  padding: 50px;
+  border: 3px groove black;
+  border-radius: 3px;
+  background: #100;
+  box-shadow: 5px 5px 5px 0px black;
+  text-align: center;
+}
+
+img:first-child {
+  width: 300px;
+  height: 300px;
+  border-radius: 150px;
+  border: 1px outset black;
+}
+
+.movies img {
+  width: 400px;
+  height: 300px;
+  border: 5px outset black;
+  object-fit: cover;
+}
+
+
+.secret {
+  color: #212;
+  font-family: 'Open Sans Condensed';
+  font-size: 10px;
+}
